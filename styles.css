@@ -1,0 +1,258 @@
+body {
+
+
+
+  overflow: scroll;
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+
+}
+
+ul {
+
+  list-style: none;
+
+}
+
+
+li a  {
+
+  text-decoration: none;
+  float: right;
+
+  font-size: 17px;
+  margin-right: 60px;
+  margin-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  padding-top: 20px;
+  margin-bottom:0;
+  padding-bottom: 0;
+
+}
+
+
+
+li a:hover {
+
+
+  text-decoration: none;
+  float: right;
+  color: #484848 ;
+}
+
+.img {
+
+  width:24%;
+  height: auto;
+  padding-top: 10px;
+  float: none;
+
+}
+
+
+
+.gallery {
+
+  width: 100%;
+  background: white;
+  padding-top: 10px;
+
+
+
+
+
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: #2E2E2E;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  display: inline-block;
+  width: 50%;
+  margin:0;
+  padding: 20px;
+  margin-left:25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+.about {
+
+  height: 550px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#FBFBFB  ;
+  }
+
+.about h1 {
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  padding-top: 130px;
+  font-size: 60px;
+}
+
+.about p{
+
+    text-align: center;
+    margin-left:25%;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.header {
+  background: white;
+  position: static;
+  height: 30px;
+  width: 100%;
+
+}
+
+.work {
+
+  height:700px;
+  width: 100%;
+}
+
+.container {
+
+  height: 750px;
+  width: 100%;
+
+}
+
+
+
+
+
+.button {
+
+  margin: 30px 10px;
+  width: 150px;
+  height: 50px;
+  margin-left: 45%;
+  border: none;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+a.button {
+  background-color: black;
+  color:white;
+
+  border:0.5px solid black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  line-height: 2.5em;
+
+
+
+
+
+}
+
+a.button:hover {
+
+  border: 0.5px solid white;
+  background-color: #333332;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+
+
+
+
+}
+.container {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.contact {
+  color:white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 60px;
+  margin-top: 0;
+}
+
+.contact-2 {
+
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+}
+
+.intro {
+  color:black;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 70px;
+  }
+
+.intro-p {
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  font-size: 20px;
+}
+
+.con-photo {
+  padding-right: 0;
+  margin-right: 0;
+}
